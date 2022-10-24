@@ -6,6 +6,18 @@ x=float(x)
 y=float(y)
 if d=="+":
     print(x+y)
+elif d=="-":
+    print (x-y)
+elif d=="*":
+    print (x*y)
+elif d=="/":
+    if y==0:
+        print ("error")
+        quit
+    else:
+        print(x/y)
+elif d=="^":
+    print(x**y)
 elif d=="#":
     if x<0 and y%2==0:
         print("error")
